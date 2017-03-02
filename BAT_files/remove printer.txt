@@ -1,0 +1,5 @@
+
+psexec \\PC2530 cmd
+
+
+RUNDLL32 printui.dll,PrintUIEntry /n "Brother HL-2140" /dl 

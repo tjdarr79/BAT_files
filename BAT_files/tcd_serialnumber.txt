@@ -1,0 +1,7 @@
+psexec cmd.exe \\computer
+
+wmic bios get serialnumber
+
+wmic nicconfig get MACaddress
+
+*/  if two MAC Address are found 1ST wireless NIC and 2ND NIC

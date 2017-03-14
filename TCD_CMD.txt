@@ -1,0 +1,20 @@
+run psexec
+psexec.exe \\tdcname cmd.exe
+
+stop HAgen
+net stop HAgent
+
+
+restart HAgent
+start HAgent
+
+TCD restart
+shutdown -f -r
+
+
+
+
+
+
+run ps1 join domain 
+powershell.exe -noexit "& ""C:\Windows\Setup\OHSU\Join_OHSUCC.ps1"""
